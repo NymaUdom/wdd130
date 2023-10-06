@@ -1,6 +1,10 @@
+/* Set background color and height for #background */
 #background {
     height: 725px;
+    background-color: #3b133e;
 }
+
+/* Set background color for body and header */
 body {
     background-color: #fcfbfb;
 }
@@ -9,26 +13,27 @@ header {
     background-color: #3b133e;
 }
 
+/* Set background color on hover for nav links */
 nav a:hover {
     background-color: black;
 }
 
+/* Set text color and background color for .book and .join */
 .book,
 .join {
     text-align: center;
-    background-color: #fcfbfb;
+    color: #fcfbfb;
     text-decoration: none;
+    background-color: #fcfbfb;
 }
 
+/* Set background color on hover for .book and .join */
 .book:hover,
 .join:hover {
     background-color: #e7c24f;
 }
 
-#background {
-    background-color: #3b133e;
-}
-
+/* Set background color for .msg and footer */
 .msg {
     background-color: black;
 }
@@ -37,18 +42,19 @@ footer {
     background-color: #fcfbfb;
 }
 
-
-
+/* Set text color for nav links */
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }
 
+/* Set text color on hover for nav links */
 nav a:hover {
     color: #5b1de0;
 }
 
+/* Set text color for .home-title and h4 */
 .home-title {
     color: #3b133e;
 }
@@ -57,6 +63,7 @@ h4 {
     color: #3b133e;
 }
 
+/* Set text color for .book and .join */
 .book,
 .join {
     text-align: center;
@@ -64,11 +71,13 @@ h4 {
     text-decoration: none;
 }
 
+/* Set text color on hover for .book and .join */
 .book:hover,
 .join:hover {
     color: #e7c24f;
 }
 
+/* Set text color for .msg h2 and .msg p */
 .msg h2 {
     color: black;
 }
@@ -77,6 +86,7 @@ h4 {
     color: #fcfbfb;
 }
 
+/* Set text color for footer and footer links */
 footer {
     color: #fcfbfb;
 }
@@ -87,22 +97,27 @@ footer a {
     text-decoration: none;
 }
 
+/* Set text color on hover for footer links */
 footer a:hover {
     color: #5b1de0;
 }
 
+/* Set width for .logo and .icon */
 .logo, .icon {
     width: 80px;
 }
 
+/* Set width for #hero-img */
 #hero-img {
     width: 100%;
 }
 
+/* Set font size for footer paragraphs */
 footer p {
     font-size: 1.2em;
 }
 
-footer p a:hover {
-    text-decoration: underline;
+/* Remove underline from all <a> tags */
+a {
+    text-decoration: none;
 }
