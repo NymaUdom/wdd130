@@ -25,6 +25,10 @@
   --nav-hover-background-color: #5b1de0;
 }
 
+#logo_link {
+  padding-top: 5px;
+}
+
 /* Apply Styles to the Body Element */
 body {
   max-width: 960px;
@@ -146,7 +150,8 @@ nav ul {
 /* Apply Styles to Navigation Links */
 nav a {
   text-decoration: none;
-  color: var(--nav-link-color);
+  color: #fcfbfb;
+  text-align: center;
   padding: 35px; /* Added padding */
   min-width: 120px;
   margin-top: 50px; /* Added margin */
@@ -231,6 +236,10 @@ footer {
   margin-top: 200px; /* Added margin-top */
 }
 
+footer .social img {
+  padding-top: 15px;
+}
+
 /* Add borders and border-radius */
 .book, .join {
   background-color: #d9c2a3;
@@ -238,12 +247,23 @@ footer {
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
-  margin-top: 50px; /* Added margin-top */
   border-radius: 5px; /* Added border-radius */
 }
 
 .card-img {
   border: 10px solid #d9c2a3; /* Added border with color from your site plan */
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.msg {
+  padding: 35px;
+}
+
+.msg p {
+  padding-bottom: 15px;
 }
 
 main section img {
