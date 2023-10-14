@@ -1,5 +1,5 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Your+First+Font&family=Your+Second+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Define CSS Custom Properties (Variables) */
 :root {
@@ -10,14 +10,14 @@
   --accent2-color: #df1b1f;
 
   /* Font variables */
-  --heading-font: 'Your Headline Font', 'Fallback Font', sans-serif;
-  --paragraph-font: 'Your Body Font', 'Fallback Font', sans-serif;
+  --heading-font: "IM Fell French Canon", Times, Helvetica, sans-serif;
+  --paragraph-font: "Lato", Helvetica, sans-serif;
 
   /* Color-related variables */
-  --headline-color-on-white: #3b133e;  /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: #3b133e; /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --headline-color-on-white: #3b133e;
+  --headline-color-on-color: white;
+  --paragraph-color-on-white: #3b133e;
+  --paragraph-color-on-color: white;
   --paragraph-background-color: #3b133e;
   --nav-link-color: #5b1de0;
   --nav-background-color: #e7c24f;
@@ -109,14 +109,18 @@ p {
 
 .secondary {
   background-color: var(--secondary-color);
+  margin-top: 10px; /* Added margin */
+  border-radius: 5px; /* Added border-radius */
 }
 
 .accent1 {
   background-color: var(--accent1-color);
+  margin: 200px 0; /* Added margin */
 }
 
 .accent2 {
   background-color: var(--accent2-color);
+  border: 10px solid #d9c2a3; /* Added border */
 }
 
 /* Apply Styles to Colored Paragraphs */
@@ -131,14 +135,12 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-  text-decoration: none;
 }
 
 /* Define Styles for Navigation Lists */
 nav ul {
   list-style-type: none;
   display: flex;
-  text-decoration: none;
 }
 
 /* Apply Styles to Navigation Links */
@@ -205,4 +207,45 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+/* Add margins to elements where needed */
+.home-title {
+  margin-top: 10px; /* Added margin-top */
+}
+
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px; /* Added margin-top */
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0; /* Added margin */
+}
+
+footer {
+  margin-top: 200px; /* Added margin-top */
+}
+
+/* Add borders and border-radius */
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px; /* Added margin-top */
+  border-radius: 5px; /* Added border-radius */
+}
+
+.card-img {
+  border: 10px solid #d9c2a3; /* Added border with color from your site plan */
+}
+
+main section img {
+  box-sizing: border-box; /* Added box-sizing */
 }
