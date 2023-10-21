@@ -1,123 +1,126 @@
 /* Set background color and height for #background */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.botton-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
 #background {
     height: 725px;
-    background-color: #3b133e;
 }
 
-/* Set background color for body and header */
 body {
     background-color: #fcfbfb;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-
 header {
     background-color: #3b133e;
 }
-
-/* Set background color on hover for nav links */
-nav a:hover {
-    background-color: black;
-}
-
-/* Set text color and background color for .book and .join */
-.book,
-.join {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-    background-color: #fcfbfb;
-}
-
-/* Set background color on hover for .book and .join */
-.book:hover,
-.join:hover {
-    background-color: #e7c24f;
-}
-
-/* Set background color for .msg and footer */
-.msg {
-    background-color: black;
-}
-
-footer {
-    background-color: #fcfbfb;
-}
-
-/* Set text color for nav links */
 nav a {
+    color: white;
     text-align: center;
-    color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
-
-/* Set text color on hover for nav links */
 nav a:hover {
-    color: #5b1de0;
-}
-
-/* Set text color for .home-title and h4 */
-.home-title {
-    color: #3b133e;
-}
-
-h4 {
-    color: #3b133e;
-}
-
-/* Set text color for .book and .join */
-.book,
-.join {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
-
-/* Set text color on hover for .book and .join */
-.book:hover,
-.join:hover {
-    color: #e7c24f;
-}
-
-/* Set text color for .msg h2 and .msg p */
-.msg h2 {
+    background-color: #7a5b77;
     color: black;
 }
 
-.msg p {
-    color: #fcfbfb;
+/* Set background color for body and header */
+.body, .join {
+background-color: #7a5b77;
+color: black;
+text-decoration: none;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 50;
+border-radius: 5px;
 }
 
-/* Set text color for footer and footer links */
+.book:hover, .join:hover {
+    background-color: #3b133e;
+}
+#background {
+    background-color: #7a5b77;
+}
+.msg {
+    background-color: #3b133e;
+    color: #fcfbfb;
+    line-height: 1.5em;
+    padding: 35px;
+}
 footer {
+    background-color: #3b133e;
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-
 footer a {
-    text-align: center;
-    color: black;
+    color: #fcfbfb;
     text-decoration: none;
 }
-
-/* Set text color on hover for footer links */
 footer a:hover {
-    color: #5b1de0;
+    background-color: #7a5b77;
+    color: black;
+    text-decoration: underline;
 }
-
-/* Set width for .logo and .icon */
-.logo, .icon {
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.logo {
     width: 80px;
 }
-
-/* Set width for #hero-img */
 #hero-img {
     width: 100%;
 }
-
-/* Set font size for footer paragraphs */
 footer p {
     font-size: 1.2em;
 }
-
-/* Remove underline from all <a> tags */
-a {
-    text-decoration: none;
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #3b133e;
+}
+.msg h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #3b133e;
+}
+main section img {
+    box-sizing: border-box;
 }
