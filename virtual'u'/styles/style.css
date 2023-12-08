@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #99b3bf;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color: #295a89;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #295a89;
+    color: #FFFFFF;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer {
+    background-color: #99b3bf;
+    color: #295a89;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #295a89;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #295a89;
+    color: #FFFFFF;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #virtual\'u\'info {
+    overflow: hidden;
+  }
+  
+  #virtual\'u\'img-box{
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 100px;
+  }
+  
+  #virtual\'u\'info-box {
+    margin-bottom: 8px;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Add some indentation for better readability */
+    position: relative;
+  }
+
+  #virtualu {
+    text-align: center; /* Center the content */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+#virtualu-header {
+  text-align: center; /* Center the content */
+  margin-top: 20px; /* Add margin top to separate from the header */
+}
+
+.text-box {
+  background-color: #295a89; /* Assign a different background color */
+  border: 2px solid #ccc; /* Border around the text box */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+}
+
+#virtualu-img-box {
+  text-align: center; /* Center the image */
+  margin-top: 20px; /* Adjust margin top for spacing */
+}
+
+#virtualu-img {
+  max-width: 100%; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline spacing */
+  margin: 0 auto; /* Center the image */
+  /* Additional styles for the image */
+}
+
+.content-box {
+  color: #295a89;
+  border: 2px solid #ccc; /* Border around the content */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  margin-bottom: 20px; /* Spacing between sections */
+}
+
+  /* Adjust these styles as needed */
+#about-box {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; /* Ensure it doesn't overflow the parent container */
+}
+
+.top-left {
+  width: 100%; /* Take full width of the container */
+  box-sizing: border-box; /* Includes padding and border within the width */
+  padding: 10px; /* Add padding for spacing */
+  text-align: center; /* Center align text */
+}
+
+.top-left img {
+  max-width: 100%; /* Ensure image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline spacing */
+  margin: 0 auto; /* Center the image */
+}
+
+.top-bottom {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: justify; /* Justify the text */
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.left {
+  width: 45%; /* Adjust width as needed */
+  box-sizing: border-box;
+}
+
+.text-box {
+  background-color: #99b3bf;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.right {
+  width: 45%; /* Adjust width as needed */
+}
+
+.right img {
+  max-width: 100%; /* Ensure image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline spacing */
+}
+
+#contact-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact-img-box {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Adjust spacing between image and text boxes */
+}
+
+#contact-img-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.text-box {
+  width: 100%;
+  padding: 10px;
+  background-color: #99b3bf;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Adjust spacing between text boxes and form */
+}
+
+.left {
+  width: 50%; /* Adjust width as needed */
+  box-sizing: border-box;
+  background-color: #99b3bf;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+#map {
+  width: 40%; /* Adjust width for map */
+  height: 200px; /* Set a specific height for the map */
+  margin-top: 20px; /* Add space between text boxes and map */
+}
+
+
+/* Additional styling for images, paragraphs, etc. */
+
+ 
+
+  
+
+
+  
+  .botton-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .book {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+  }
+  
+  
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  padding-left: 20px;
+  margin-right: 40px;
+  margin-top: -400px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+#contact-info-box {
+  background-color: #fff;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+
+  
+}
+
+#contact-info-box h3 {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contact-info-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact-info-box li {
+  font-size: 0.8em;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 20px;
+}
+
+#contact-info-box li:before {
+  content: "\2022";
+  color: #007bff;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+#contact-info-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact-info-box a:hover {
+  text-decoration: underline;
+}
+
+#contact-info-box div {
+  margin-top: 20px;
+}
+
+/* Additional styles for the second div */
+#additional-info {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#additional-info h3 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+}
+#last-msg h3 {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 500px;
+  width: 70%
+}
+
+
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  
+    #event {
+      width: 100%;
+    }
+  
+    #event-info {
+      flex-direction: column;
+    }
+  
+    #event-img-box {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  

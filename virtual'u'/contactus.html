@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Virtual'U' | Contact</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer>
+    </script>
+    <script>
+        function initMap() {
+            const lagos = { lat: 6.5244, lng: 3.3792 }; // Coordinates for Lagos, Nigeria
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: lagos,
+                zoom: 10, // Adjust the zoom level as needed
+            });
+        }
+    </script>
+    
+
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a href="index.html" id="logo_link">
+                <img class="logo" src="images/Virtual’U’.png" alt="Virtual’U’ Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <section id="contact-box">
+                <div id="contact-img-box">
+                    <img id="contact-moment" src="images/virtual'u'3.jpg" alt="reach out">
+                </div>
+                <div class="bottom-content">
+                    <div class="left">
+                        <div id="contact-info-box" class="text-box">
+                            <h2>Get in touch</h2>
+                            <p>We'd love to hear from you! If you have any questions, suggestions, or simply want to get in touch with our team, please use the contact information below:</p>
+                            <ul>
+                                <li>Email: <a href="mailto:nymamargaret@yahoo.com">nymamargaret@yahoo.com</a></li>
+                                <li>Phone: <a href="tel:+2348164941341">+2348164941341</a></li>
+                                <li>Address: Lagos Nigeria.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="last-msg" class="text-box">
+                            <h2>Or simply write to us</h2>
+                            <p>Feel free to reach out to us with any inquiries or feedback. Your input is valuable to us as we strive to enhance our experience. Thank you for choosing Virtual’U’, we look forward to working with you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="map"></div>
+            </section>
+            
+        
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                    <img src="images/logo_eih.PNG" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input id="uname" type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+            </section>
+        </main>
+        <footer>
+            <p>Virtual'U' &copy; 2023 - Udom Margaret</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="images/linkedin.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+<script>
+//function initMap() {
+    //const lagos = { lat: 6.5244, lng: 3.3792 }; // Coordinates for Lagos, Nigeria
+    //const map = new google.maps.Map(document.getElementById("map"), {
+        //center: lagos,
+        //zoom: 10, // Adjust the zoom level as needed
+   // });
+//}
+
+</script>
+</body>
+</html>
